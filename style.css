@@ -12,6 +12,8 @@ hr {
     margin: 1.5rem 0rem;
 }
 
+/* container */
+
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -21,6 +23,8 @@ hr {
     max-width: 600px;
     margin: auto;
 }
+
+/* links */
 
 .link {
     text-decoration: none;
@@ -37,4 +41,15 @@ hr {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+}
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
