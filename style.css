@@ -3,6 +3,7 @@
 :root {
     --primary-color: #7C3AED;
     --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -16,8 +17,7 @@ hr {
 /* container */
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center {
@@ -82,6 +82,8 @@ hr {
     font-weight: bold;
 }
 
+/* header */
+
 .hero {
     padding: 2rem;
 }
@@ -102,3 +104,16 @@ hr {
     color: var(--primary-color);
 }
 
+/* section */
+
+section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
